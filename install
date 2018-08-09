@@ -6,14 +6,11 @@
 if test -d ~/bin/
 then
     echo "Great, looks like you have ~/bin all setup already."
-    curl -o ~/bin/banana https://raw.githubusercontent.com/OD-International/express-boilerplate/master/banana
-    echo "export PATH="$HOME/bin:$PATH"" >> ~/.bash_profile
-    chmod +x ~/bin/banana
-    echo "Father...I crave Cheddar"
 else
     mkdir ~/bin
-    curl -o ~/bin/banana https://raw.githubusercontent.com/OD-International/express-boilerplate/master/banana
-    echo "export PATH="$HOME/bin:$PATH"" >> ~/.bash_profile
-    chmod +x ~/bin/banana
     echo "Father...I crave Cheddar"
 fi
+
+curl -o ~/bin/banana https://raw.githubusercontent.com/OD-International/express-boilerplate/master/banana
+echo "export PATH="$HOME/bin:$PATH"" >> ~/.bash_profile
+chmod +x ~/bin/banana
