@@ -1,17 +1,18 @@
 ## Get the boilerplate command line generator
 
 ### step 1: clone this repo or you can just download the `install` file
-`git clone https://github.com/OD-International/express-boilerplate.git`
+  - `git clone https://github.com/OD-International/express-boilerplate.git`
+  - `curl -o install https://raw.githubusercontent.com/OD-International/express-boilerplate/master/install`
 
 ### step 2: cd into the directory
-`cd express-boilerplate`
+  - `cd express-boilerplate`
 
 ### step 3: run the installer
-`./install`
+  - `./install`
 
-### setp 4: close your current terminal session
+### step 4: close your current terminal session!!!
 `done`
 
 ## How this generator works?
 
-### just run `banana`
+### just run `banana` in the terminal then it will generate a new express app for you.
