@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# check if ~/bin/ exist, if not create one
+if test -d ~/bin/
+then
+    echo "Great, looks like you have ~/bin all setup already."
+else
+    mkdir ~/bin
+    curl -o ~/bin/banana https://raw.githubusercontent.com/OD-International/express-boilerplate/master/banana
+    echo "Father...I crave Cheddar"
+fi
