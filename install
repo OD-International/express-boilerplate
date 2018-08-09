@@ -1,11 +1,19 @@
 #!/usr/bin/env bash
 
 # check if ~/bin/ exist, if not create one
+# add the script to the home path so it can be executed anywhere
+# make the script to be executable
 if test -d ~/bin/
 then
     echo "Great, looks like you have ~/bin all setup already."
+    curl -o ~/bin/banana https://raw.githubusercontent.com/OD-International/express-boilerplate/master/banana
+    echo "export PATH="$HOME/bin:$PATH"" >> ~/.bash_profile
+    chmod +x ~/bin/banana
+    echo "Father...I crave Cheddar"
 else
     mkdir ~/bin
     curl -o ~/bin/banana https://raw.githubusercontent.com/OD-International/express-boilerplate/master/banana
+    echo "export PATH="$HOME/bin:$PATH"" >> ~/.bash_profile
+    chmod +x ~/bin/banana
     echo "Father...I crave Cheddar"
 fi
