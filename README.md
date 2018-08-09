@@ -1,3 +1,5 @@
+# Banana Express App Generator
+
 ## Get the boilerplate command line generator
 
 ### step 0: make sure you have express-generator already
@@ -20,5 +22,9 @@
 
 ### just run `banana` in the terminal then it will generate a new express app for you.
 
-## How to update this `banana` generator?
+## How to update `banana` generator?
   - run the `installer` again by: `./installer`
+
+## How to uninstall `banana` generator?
+  - `rm ~/bin/banana`
+  - You uncultured swine...why would you do this...
