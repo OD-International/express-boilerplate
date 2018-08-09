@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+echo "Yo fam, want name or nah?"
+read appName
+
+express --no-view $appName
+cd $appName
+git init
+
+# install default dependencies
+npm install nodemon@1.18 chai@4.1 chai-http@4.0 dotenv@6.0 forever@0.15 mocha@5.2 request@2.87 md5@2.2 http-errors@1.7 moment@2.22 --save
+npm audit fix
+
+# create default dir and files
+mkdir tests
+mkdir helpers
+mkdir services
+mkdir "${appName}_modules"
+mkdir middleware
+touch Dockerfile docker-compose.yml README.md .env
+
+# replace app.js with the company's default app.js
+rm app.js
+curl -o app.js 
+
+# add a title to README
+echo "# ${appName}" >> README.md
+
+# download MIT license
+curl -o LICENSE https://raw.githubusercontent.com/OD-International/MIT-License/master/LICENSE
+
+# download gitignore
+curl -o .gitignore https://raw.githubusercontent.com/OD-International/gitignore/master/.gitignore
+
+# clean out the default route implementation
+rm -rf routes
+mkdir routes
