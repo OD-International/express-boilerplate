@@ -8,7 +8,7 @@ cd $appName
 git init
 
 # install default dependencies
-npm install nodemon@1.18 chai@4.1 chai-http@4.0 dotenv@6.0 forever@0.15 mocha@5.2 request@2.87 md5@2.2 http-errors@1.7 moment@2.22 --save
+npm install nodemon@1.18 chai@4.1 chai-http@4.0 dotenv@6.0 forever@0.15 mocha@5.2 request@2.87 md5@2.2 http-errors@1.7 moment@2.22 body-parser@1.18 --save
 npm audit fix
 
 # create default dir and files
