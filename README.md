@@ -19,3 +19,6 @@
 ## How this generator works?
 
 ### just run `banana` in the terminal then it will generate a new express app for you.
+
+## How to update this `banana` generator?
+  - run the `installer` again by: `./installer`
