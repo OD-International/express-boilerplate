@@ -19,18 +19,18 @@ mkdir "${appName}_modules"
 mkdir middleware
 touch Dockerfile docker-compose.yml README.md .env
 
-# replace app.js with the company's default app.js
-rm app.js
-curl -o app.js 
-
 # add a title to README
 echo "# ${appName}" >> README.md
 
+# replace express's app.js with the company's own default app.js
+rm app.js
+curl -o app.js https://raw.githubusercontent.com/OD-International/express-boilerplate/master/app.js
+
 # download MIT license
-curl -o LICENSE https://raw.githubusercontent.com/OD-International/MIT-License/master/LICENSE
+curl -o LICENSE https://raw.githubusercontent.com/OD-International/express-boilerplate/master/LICENSE
 
 # download gitignore
-curl -o .gitignore https://raw.githubusercontent.com/OD-International/gitignore/master/.gitignore
+curl -o .gitignore https://raw.githubusercontent.com/OD-International/express-boilerplate/master/gitignore
 
 # clean out the default route implementation
 rm -rf routes
