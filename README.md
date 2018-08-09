@@ -1,5 +1,8 @@
 ## Get the boilerplate command line generator
 
+### step 0: make sure you have express-generator already
+  - if not, install it like so: `npm install -g express-generator`
+
 ### step 1: clone this repo or you can just download the `install` file
   - `git clone https://github.com/OD-International/express-boilerplate.git`
   - `curl -o install https://raw.githubusercontent.com/OD-International/express-boilerplate/master/install`
