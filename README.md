@@ -1,4 +1,5 @@
-# Banana Express App Generator
+# Banana - An Express App Generator
+![Banner](https://media.giphy.com/media/bh4jzePjmd9iE/giphy.gif)
 
 ## Get the boilerplate command line generator
 
