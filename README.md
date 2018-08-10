@@ -24,7 +24,7 @@
 ### just run `banana` in the terminal then it will generate a new express app for you.
 
 ## How to update `banana` generator?
-  - run the `installer` again by: `./installer`
+  - run the `installer` again by: `./install`
 
 ## How to uninstall `banana` generator?
   - `rm ~/bin/banana`
