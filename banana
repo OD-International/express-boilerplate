@@ -40,3 +40,5 @@ mkdir routes
 
 # download app.route.js
 curl -o routes/app.route.js https://raw.githubusercontent.com/OD-International/express-boilerplate/master/app.route.js
+
+exit 0
