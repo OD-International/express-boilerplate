@@ -6,3 +6,5 @@ router.get('/', async (req, res, next) => {
   const result = Response.formattedContent(true, 'success')
   res.status(200).json(result)
 })
+
+module.exports = router
