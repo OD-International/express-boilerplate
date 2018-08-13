@@ -34,9 +34,9 @@ curl -o LICENSE https://raw.githubusercontent.com/OD-International/express-boile
 # download gitignore
 curl -o .gitignore https://raw.githubusercontent.com/OD-International/express-boilerplate/master/gitignore
 
-# download app.route.js
-curl -o routes/app.route.js https://raw.githubusercontent.com/OD-International/express-boilerplate/master/app.route.js
-
 # clean out the default route implementation
 rm -rf routes
 mkdir routes
+
+# download app.route.js
+curl -o routes/app.route.js https://raw.githubusercontent.com/OD-International/express-boilerplate/master/app.route.js
