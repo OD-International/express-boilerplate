@@ -18,6 +18,7 @@ mkdir services
 mkdir "${appName}_modules"
 mkdir middlewares
 touch Dockerfile docker-compose.yml README.md .env
+touch CHANGELOG.md
 
 # add a title to README
 echo "# ${appName}" >> README.md
