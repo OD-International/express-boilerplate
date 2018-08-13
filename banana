@@ -29,7 +29,7 @@ rm app.js
 curl -o app.js https://raw.githubusercontent.com/OD-International/express-boilerplate/master/app.js
 
 # add default helpers
-curl -o /helpers/response.helper.js https://raw.githubusercontent.com/OD-International/express-boilerplate/master/response.helper.js
+curl -o helpers/response.helper.js https://raw.githubusercontent.com/OD-International/express-boilerplate/master/response.helper.js
 
 # download MIT license
 curl -o LICENSE https://raw.githubusercontent.com/OD-International/express-boilerplate/master/LICENSE

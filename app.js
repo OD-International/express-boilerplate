@@ -6,7 +6,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const app = express();
-const appRoute = require('./routes.app.route')
+const appRoute = require('./routes/app.route')
 
 app.use(logger('dev'));
 app.use(express.json());
