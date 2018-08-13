@@ -44,4 +44,6 @@ curl -o routes/app.route.js https://raw.githubusercontent.com/OD-International/e
 # add default helpers
 curl -o helpers/response.helper.js https://raw.githubusercontent.com/OD-International/express-boilerplate/master/response.helper.js
 
+npm install
+
 exit 0
