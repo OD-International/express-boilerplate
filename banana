@@ -15,7 +15,7 @@ npm audit fix
 mkdir tests
 mkdir helpers
 mkdir services
-mkdir "${appName}_modules"
+mkdir app_modules
 mkdir middlewares
 touch Dockerfile docker-compose.yml README.md .env
 touch CHANGELOG.md
