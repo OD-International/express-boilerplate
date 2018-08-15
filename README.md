@@ -1,4 +1,4 @@
-# Banana - An Express App Generator
+# ODBanana - An Express App Generator
 ![Banner](https://media.giphy.com/media/bh4jzePjmd9iE/giphy.gif)
 
 ## Get the boilerplate command line generator
@@ -21,11 +21,11 @@
 
 ## How this generator works?
 
-Just run `banana` in the terminal and then it will generate a new express app for you.
+Just run `odbanana` in the terminal and then it will generate a new express app for you.
 
-## How to update `banana` generator?
+## How to update `odbanana` generator?
   - run the `installer` again by: `./install`
 
-## How to uninstall `banana` generator?
-  - `rm ~/bin/banana`
+## How to uninstall `odbanana` generator?
+  - `rm ~/bin/odbanana`
   - You uncultured swine...why would you do this...
