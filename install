@@ -10,25 +10,25 @@ else
 fi
 
 # download script to the bin directory under the home diretory
-curl -o ~/bin/banana https://raw.githubusercontent.com/OD-International/express-boilerplate/master/banana
+curl -o ~/bin/opbanana https://raw.githubusercontent.com/OD-International/express-boilerplate/master/banana
 
 # adds script to $HOME path
 echo "export PATH="$HOME/bin:$PATH"" >> ~/.bash_profile
 
 # make the script executable
-chmod +x ~/bin/banana
+chmod +x ~/bin/opbanana
 
 # prompt success message
 echo "
-██████╗  █████╗ ███╗   ██╗ █████╗ ███╗   ██╗ █████╗ 
-██╔══██╗██╔══██╗████╗  ██║██╔══██╗████╗  ██║██╔══██╗
-██████╔╝███████║██╔██╗ ██║███████║██╔██╗ ██║███████║
-██╔══██╗██╔══██║██║╚██╗██║██╔══██║██║╚██╗██║██╔══██║
-██████╔╝██║  ██║██║ ╚████║██║  ██║██║ ╚████║██║  ██║
-╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝
+ ██████╗ ██████╗ ██████╗  █████╗ ███╗   ██╗ █████╗ ███╗   ██╗ █████╗ 
+██╔═══██╗██╔══██╗██╔══██╗██╔══██╗████╗  ██║██╔══██╗████╗  ██║██╔══██╗
+██║   ██║██████╔╝██████╔╝███████║██╔██╗ ██║███████║██╔██╗ ██║███████║
+██║   ██║██╔═══╝ ██╔══██╗██╔══██║██║╚██╗██║██╔══██║██║╚██╗██║██╔══██║
+╚██████╔╝██║     ██████╔╝██║  ██║██║ ╚████║██║  ██║██║ ╚████║██║  ██║
+ ╚═════╝ ╚═╝     ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝
 "
 
 # some helpful message
-echo 'to generate a new express app, simply run `banana`'
+echo 'to generate a new express app, simply run `opbanana`'
 
 exit 0
