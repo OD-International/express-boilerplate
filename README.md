@@ -17,14 +17,15 @@
   - `./install`
 
 ### step 4: close your current terminal session!!!
-`done`
+  - `done`
 
 ## How this generator works?
 
 Just run `odbanana` in the terminal and then it will generate a new express app for you.
 
 ## How to update `odbanana` generator?
-  - run the `installer` again by: `./install`
+  - pull from your remote: `git pull https://github.com/OD-International/express-boilerplate.git master`
+  - then run the `installer` again by: `./install`
 
 ## How to uninstall `odbanana` generator?
   - `rm ~/bin/odbanana`
