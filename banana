@@ -20,6 +20,7 @@ mkdir app_modules
 mkdir middlewares
 touch Dockerfile docker-compose.yml README.md .env
 touch CHANGELOG.md
+rm -rf public # remove default express root view
 
 # add a title to README
 echo "# ${appName}" >> README.md
